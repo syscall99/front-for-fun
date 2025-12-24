@@ -2,7 +2,7 @@ body
 {
     text-align: center;
     font-family:'Times New Roman', Times, serif;
-    background: rgb(255, 255, 226);
+    background: rgb(253, 206, 126);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,11 +12,36 @@ body
 {
     width: 150px;
     border-radius: 50%;
-    border: 4px solid rgb(125, 195, 190);
+    border: 4px solid rgb(162, 209, 206);
 }
 
-h2, h4
+#bday-age
 {
-    background: rgb(125, 195, 190);
-    display: inline;
+    background: rgb(162, 209, 206);
+    padding: 5px 5px;
+    border-radius: 3px;
+    margin: 10px 0 10px 0;
+}
+
+#bday-date
+{
+    background: rgb(162, 209, 206);
+}
+
+#header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-img
+{
+    display: 0 auto;
+    width: 300px;
+    height: 300px;
+    border: 6px solid rgb(162, 209, 206);
+    border-radius: 10px;
+    background-image: url("images/gift-box.jpg");
+    background-size: cover;
 }
