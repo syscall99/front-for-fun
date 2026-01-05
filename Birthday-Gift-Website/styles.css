@@ -2,7 +2,7 @@ body
 {
     text-align: center;
     font-family:'Times New Roman', Times, serif;
-    background: rgb(253, 206, 126);
+    background: linear-gradient(rgb(253, 206, 126), rgb(162, 209, 206));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,4 +44,14 @@ body
     border-radius: 10px;
     background-image: url("images/gift-box.jpg");
     background-size: cover;
+}
+
+#gift-img-happy:hover
+{
+    background-image: url("images/fireworks.gif");
+}
+
+#gift-img-good-look:hover
+{
+    background-image: url("images/fireworks.gif");
 }
